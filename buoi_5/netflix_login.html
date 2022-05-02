@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix_login</title>
+    <link rel="stylesheet" href="./assets/css/netflix_login.css">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="login_header">
+            <div class="login_logo">
+                <a id="netflix-logo" href="#"><span class="iconify" data-icon="logos:netflix"></span></a>
+            </div>
+        </div>
+        <div class="login_body">
+            <div class="login_form">
+                <form class="login_form_main">
+                    <h1>Đăng nhập</h1>
+                    <div class="login_input_container">
+                        <input type="text" name="username" id="username" required />
+                        <label class="floating-label" for="username">Email hoặc số điện thoại</label>
+                    </div>
+                    <div class="login_input_container">
+                        <input type="password" name="password" id="password" required />
+                        <label class="floating-label" for="password">Mật khẩu</label>
+                    </div>
+                    <button class="btn">Đăng nhập</button>
+                    <div class="login_form_help">
+                        <div class="remember_me">
+                            <input type="checkbox" name="tick" value="">
+                            <p> Ghi nhớ tôi</p>
+                        </div>
+                        <a class="login-help-link" href="#">Bạn cần trợ giúp?</a>
+                    </div>
+                    <div class="login_form_other">
+                        <div class="fb_login">
+                            <a href="" class="icon_fb"><img src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png" class="icon_fb"> </a>
+                            <a href="" class="fb_now">Đăng nhập bằng tài khoản Facebook </a>
+                        </div>
+                        <div class="login_now">
+                            <p>Bạn mới tham gia Netflix? <a href="#" class="now">Đăng ký ngay.</a></p>
+                        </div>
+                        <div class="login_more">
+                            <p>Trang này được Google reCAPTCHA bảo vệ để đảm bảo bạn không phải là robot. <a href="#" class="more">Tìm hiểu thêm.</a></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="login_footer">
+          <div class="site_footer">
+            <div>
+                <a href="#" class="contact_me">Bạn có câu hỏi? Liên hệ với chúng tôi.</a>
+            </div>
+            <ul>
+                <li><a href="" class="contact_section">Câu hỏi thường gặp</a></li>
+                <li><a href="" class="contact_section">Trung tâm trợ giúp</a></li>
+                <li><a href="" class="contact_section">Điều khoản sử dụng</a></li>
+                <li><a href="" class="contact_section">Quyền riêng tư</a></li>
+                <li><a href="" class="contact_section">Tùy chọn cookie</a></li>
+                <li><a href="" class="contact_section">Thông tin doanh nghiệp</a></li>
+            </ul>
+            <div class="select_option">
+                <select id="languages">
+                    <option value="VN">Tiếng Việt</option>
+                    <option value="US">English</option>
+                </select>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+</body>
+</html>

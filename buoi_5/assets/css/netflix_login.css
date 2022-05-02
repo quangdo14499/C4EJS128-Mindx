@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.main {
+    min-height: 100vh;
+    min-width: 740px;
+    background: linear-gradient(#0000009e,#0000009e) ,url('https://assets.nflxext.com/ffe/siteui/vlv3/3e521d6d-a53b-4c3f-a85f-dd77c06f7ac7/54cd5a62-8b2a-44f8-a55a-4c1a62028228/VN-vi-20220425-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+}
+
+.login_header {
+    height: 90px;
+}
+
+
+.login_logo {
+    margin-left: 3%;
+    height: 90px;
+}
+
+.iconify{
+    height: 90px;
+    width: 167px;
+   
+}
+
+path {
+    fill: #e50914;
+
+}
+
+.login_body{
+    display: flex;
+    justify-content: center;
+}
+
+.login_form{
+    padding: 60px 68px 40px;
+    background: #292929;
+    min-height: 660px;
+    width: 450px;
+    margin-bottom: 90px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.75);
+}
+
+.login_form_main {
+    position: relative;
+    display: block;
+    color: #ffffff;
+}
+
+.login_input_container {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
+.login_form_main h1{
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.login_input_container input {
+    box-sizing: border-box;
+    width: 100%;
+    font-family: inherit;
+    padding: 16px 20px 0 20px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #444;
+    color: #ffffff;
+}
+
+.floating-label {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 20px;
+    font-size: 18px;
+    cursor: text;
+    color: #8c8c8c;
+   
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #e50914;
+}
+
+input:focus ~ .floating-label,
+input:valid ~ .floating-label {
+    font-size: 11px;
+    top: 7px;
+}
+
+.login_form_help {
+    display: flex;
+    justify-content: space-between;
+    height: 22px;
+}
+
+.remember_me{
+    display: flex;
+    align-items: center;
+}
+
+.remember_me input {
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    
+}
+
+.remember_me p {
+    margin-left: 3px;
+    
+}
+
+.remember_me,
+.login-help-link {
+    color: #737373;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.login_form_other {
+    margin: 0;
+    min-height: 216px;
+    width: 100%;
+}
+
+.fb_login {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    height: 20px;
+}
+
+.fb_login a:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.icon_fb {
+    height: 20px;
+    width: 20px;
+}
+
+.fb_now {
+    margin-left:10px;
+    align-content: center;
+    font-size: 13px;
+}
+
+.login_now {
+    margin-top: 16px;
+
+}
+
+.login_now p {
+    font-size: 16px;
+    color: #737373;
+}
+
+.now{
+    
+    font-size: 16px;
+    color: white;
+}
+
+.login_more {
+    margin-top: 11px;
+}
+
+.login_more p {
+    font-size: 13px;
+    color: #737373;
+}
+
+.more {
+    font-size: 13px;
+    color: #0071eb;
+}
+
+.login_footer {
+    height: 258px;
+    background-color:rgba(0,0,0,.75) ;
+    width: 100%;
+    padding: 0 0 20px;
+}
+
+.site_footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.site_footer div:first-child {
+    margin-bottom: 30px;
+}
+
+
+.login_footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site_footer ul li {
+    min-width: 250px;
+    height: 15px;
+    padding-right: 12px;
+    margin-bottom: 16px;
+
+}
+
+.contact_section {
+    font-size: 13px;
+}
+
+.select_option {
+    margin-top: 20px;
+}
+
+#languages {
+    height: 48px;
+    width: 136px;
+    padding: 12px 0px 12px 50px;
+    background-color: #000000;
+    color: #737373;
+    border: 1px solid #333;
+    text-indent: 2px;
+    line-height: 1.7;
+}
+
+#languages option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
