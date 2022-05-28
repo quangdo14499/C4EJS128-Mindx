@@ -332,13 +332,13 @@ h3{
     height: 120px;
 }
 
-.all-item{
+#all-item{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.item-container{
+.item-cont{
     height: 622px;
     width: 33.33333%;
     padding: 25px;
@@ -369,7 +369,7 @@ h3{
 }
 
 
-.item-container p{
+.item-cont p{
     text-align: center;
     margin-top: 15px;
 }
