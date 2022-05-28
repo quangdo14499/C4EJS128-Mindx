@@ -348,7 +348,7 @@ h3{
     position: relative;
     height: 483px;
     width: 100%;
-    
+    cursor: pointer;
 }
 
 .quick-view{
@@ -362,6 +362,7 @@ h3{
     background-color: #f9fafa;
     color: #A05841;
 }
+
 
 .item-image:hover .quick-view{
     display: block;
