@@ -1,7 +1,7 @@
-const a = 2
-const b = 5
 
-function viewStn(){
+
+function viewStn(a,b){
+    
     let flag;
     for (i=a+1;i<=b;i++){
         flag=1;
@@ -13,6 +13,9 @@ function viewStn(){
         }
         if(flag==1){
             document.write('so nguyen to',i);
+            
         }
     }
 }
+
+console.log(viewStn(5,23))
