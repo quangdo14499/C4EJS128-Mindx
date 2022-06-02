@@ -1,6 +1,6 @@
-
-
-function viewStn(a,b){
+let a= 3
+let b= 25
+function viewStn(){
     
     let flag;
     for (i=a+1;i<=b;i++){
@@ -18,4 +18,4 @@ function viewStn(a,b){
     }
 }
 
-console.log(viewStn(5,23))
+console.log(viewStn(a,b))
