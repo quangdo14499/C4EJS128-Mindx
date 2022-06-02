@@ -578,7 +578,14 @@
 
 
     /* shop all */
+    
+    .item-image{
+        height: 300px;
+    }
 
+    .item-cont{
+        height: 500px;
+    }
 }   
 
 /* PC */

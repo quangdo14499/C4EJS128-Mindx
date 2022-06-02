@@ -47,10 +47,6 @@ setInterval(changeText,3000)
 // search-box
 
 
-
-
-
-
 const hamburger = document.querySelector(".hamburger-menu");
 const navMenu = document.querySelector(".nav");
 
